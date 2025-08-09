@@ -5,12 +5,12 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Your_Session_Id", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "XEoSCTyS#2tTRv0SGHByrv_fNybNM0TYSQf6NHhi_Ekncmtq1OHE", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
-LANG: process.env.LANG || "EN", // EN | SI
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94701415046",
+DEV: process.env.DEV || "94778764083",
+LANG: process.env.LANG || "SI", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -35,8 +35,8 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
-WELCOME: process.env.WELCOME || "true",
-GOODBYE: process.env.GOODBYE || "true",
+WELCOME: process.env.WELCOME || "falae",
+GOODBYE: process.env.GOODBYE || "falae",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
